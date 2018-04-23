@@ -13,7 +13,9 @@ const fadeIn = keyframes`
   }
 `;
 
-const CardClass = css`
+const CardClass = {};
+
+CardClass.wrapper = css`
   margin: 0 0 1rem;
   overflow: hidden;
   border: ${pxToRem(1)} solid ${colors.gray5};
@@ -23,18 +25,18 @@ const CardClass = css`
   color: ${colors.primaryColor};
 `;
 
-const CardImageClass = css`
+CardClass.image = css`
   max-width: 100%;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-name: ${fadeIn};
 `;
 
-const CardContentClass = css`
+CardClass.content = css`
   padding: 1rem;
 `;
 
-const CardContentItemClass = css`
+CardClass.item = css`
   margin: 0 0 1rem;
   
   &:last-child {
@@ -42,9 +44,4 @@ const CardContentItemClass = css`
   }
 `;
 
-export {
-  CardClass,
-  CardImageClass,
-  CardContentClass,
-  CardContentItemClass,
-};
+export default CardClass;
