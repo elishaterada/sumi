@@ -17,6 +17,7 @@ exports[`renders Accent Button 1`] = `
   cursor: pointer;
   box-sizing: border-box;
   border-radius: 0.125rem;
+  -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
@@ -74,6 +75,7 @@ exports[`renders Button 1`] = `
   cursor: pointer;
   box-sizing: border-box;
   border-radius: 0.125rem;
+  -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
@@ -127,6 +129,7 @@ exports[`renders Icon Button 1`] = `
   cursor: pointer;
   box-sizing: border-box;
   border-radius: 50%;
+  -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
@@ -178,6 +181,7 @@ exports[`renders Minimal Button 1`] = `
   cursor: pointer;
   box-sizing: border-box;
   border-radius: 0.125rem;
+  -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
